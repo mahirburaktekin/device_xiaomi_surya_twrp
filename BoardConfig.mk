@@ -77,3 +77,17 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+
+#SHRP
+SHRP_PATH := device/xiaomi/surya
+SHRP_MAINTAINER := VaharAI
+SHRP_DEVICE_CODE := surya
+SHRP_EDL_MODE := 0
+SHRP_FLASH := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb-otg
+SHRP_AB := true
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A/B
